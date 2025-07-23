@@ -1,0 +1,71 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #000 url('../assets/stars.gif') repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 20px;
+  color: #FFD700;
+  text-shadow: 0 0 10px #FFD700;
+}
+
+.menu-item {
+  background: #1a1a1a;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 0 15px #222;
+}
+
+.menu-item img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.item-name {
+  font-size: 1.4rem;
+  margin: 10px 0 5px;
+}
+
+.price {
+  color: #FFCC00;
+  margin-bottom: 10px;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+button {
+  background: #6600cc;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#cartBtn, #orderBtn {
+  display: inline-block;
+  margin: 20px 10px;
+  background: #28a745;
+  padding: 15px 20px;
+  font-size: 1.1rem;
+}
+
+#orderBtn {
+  background: #25D366;
+}

@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MidniteBites71</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <h1>✨MidniteBites71✨</h1>
+
+  <div class="menu-item" data-name="Sandwich" data-price="71">
+    <img src="assets/sandwich.jpg" alt="Sandwich">
+    <div class="item-name">Sandwich</div>
+    <div class="price">₹71</div>
+    <div class="counter">
+      <button onclick="updateItem('Sandwich', -1)">−</button>
+      <span id="Sandwich-count">0</span>
+      <button onclick="updateItem('Sandwich', 1)">+</button>
+    </div>
+  </div>
+
+  <div class="menu-item" data-name="Dosa" data-price="89">
+    <img src="assets/dosa.jpg" alt="Dosa">
+    <div class="item-name">Dosa</div>
+    <div class="price">₹89</div>
+    <div class="counter">
+      <button onclick="updateItem('Dosa', -1)">−</button>
+      <span id="Dosa-count">0</span>
+      <button onclick="updateItem('Dosa', 1)">+</button>
+    </div>
+  </div>
+
+  <div class="menu-item" data-name="Pav Bhaji" data-price="89">
+    <img src="assets/pavbhaji.jpg" alt="Pav Bhaji">
+    <div class="item-name">Pav Bhaji</div>
+    <div class="price">₹89</div>
+    <div class="counter">
+      <button onclick="updateItem('Pav Bhaji', -1)">−</button>
+      <span id="Pav Bhaji-count">0</span>
+      <button onclick="updateItem('Pav Bhaji', 1)">+</button>
+    </div>
+  </div>
+
+  <div class="menu-item" data-name="Wrap" data-price="79">
+    <img src="assets/wrap.jpg" alt="Wrap">
+    <div class="item-name">Wrap</div>
+    <div class="price">₹79</div>
+    <div class="counter">
+      <button onclick="updateItem('Wrap', -1)">−</button>
+      <span id="Wrap-count">0</span>
+      <button onclick="updateItem('Wrap', 1)">+</button>
+    </div>
+  </div>
+
+  <div class="menu-item" data-name="Burger" data-price="71">
+    <img src="assets/burger.jpg" alt="Burger">
+    <div class="item-name">Burger</div>
+    <div class="price">₹71</div>
+    <div class="counter">
+      <button onclick="updateItem('Burger', -1)">−</button>
+      <span id="Burger-count">0</span>
+      <button onclick="updateItem('Burger', 1)">+</button>
+    </div>
+  </div>
+
+  <button id="cartBtn" onclick="goToCart()">Go to Cart</button>
+  <button id="orderBtn" onclick="orderWhatsApp()">Order on WhatsApp</button>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
